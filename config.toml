@@ -2,3 +2,14 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "MomCorp"
 theme = "ananke"
+
+
+[params]
+  featured_image = "/images/ConquerEarthYou.jpg"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "wiki"
+    name = "Wiki"
+    url = "https://futurama.fandom.com/wiki/MomCorp"
