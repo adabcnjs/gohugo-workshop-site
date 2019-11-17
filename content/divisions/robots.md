@@ -5,9 +5,10 @@ tags: []
 summary: "About our robots division"
 ---
 
-Title | Data
-------|------
-**Official name:** | Mom's Friendly Robot Company
-**Creation date:** | June 6th 2920
-**CEO:** | Mom
-**COO:** | Walt
+
+{{< division-info
+  creation="June 6th 2920"
+  coo="Walt"
+>}}
+  Mom's Friendly Robot Company
+{{< /division-info >}}

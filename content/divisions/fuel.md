@@ -5,9 +5,9 @@ tags: []
 summary: "About our fuel division"
 ---
 
-Title | Data
-------|------
-**Official name:** | Mombil
-**Creation date:** | January 21st 2973
-**CEO:** | Mom
-**COO:** | Larry
+{{< division-info
+  creation="January 21st 2973"
+  coo="Larry"
+>}}
+  Mombil
+{{< /division-info >}}

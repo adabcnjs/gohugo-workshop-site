@@ -5,9 +5,9 @@ tags: []
 summary: "About our delivery sub-company"
 ---
 
-Title | Data
-------|------
-**Official name:** | Mom's Friendly Delivery Company
-**Creation date:** | May 30th 2943
-**CEO:** | Mom
-**COO:** | Igner
+{{< division-info
+  creation="May 30th 2943"
+  coo="Igner"
+>}}
+  Mom's Friendly Delivery Company
+{{< /division-info >}}

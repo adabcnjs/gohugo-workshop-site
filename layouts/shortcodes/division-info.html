@@ -1,0 +1,16 @@
+<dl>
+  <dt>Official name:</dt>
+  <dd>{{.Inner }}</dd>
+  <dt>Creation date:</dt>
+  <dd>{{ .Get "creation" }}</dd>
+  <dt>CEO:</dt>
+  <dd>
+    {{ if .Get "ceo"}}
+      {{.Get "ceo"}}
+    {{ else }}
+      Mom
+    {{end}}
+  </dd>
+  <dt>COO:</dt>
+  <dd>{{ .Get "coo" }}</dd>
+</dl>
