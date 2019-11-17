@@ -6,7 +6,7 @@ theme = "ananke"
 
 [params]
   featured_image = "/images/ConquerEarthYou.jpg"
-
+  custom_css = ["css/styles.css"]
 [menu]
 
   [[menu.main]]

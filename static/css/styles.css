@@ -1,0 +1,11 @@
+dt {
+  font-weight: bold;
+}
+
+dd {
+  display: inline-block;
+  width: 50%;
+  margin-left: 0;
+  padding-left: 2rem;
+  border-bottom: 1px solid #000;
+}
