@@ -1,7 +1,9 @@
 ---
 title: "Robot Santa Claus"
 date: 2019-10-21T23:27:55+02:00
-tags: []
+tags: ["unique model"]
+habilities: ["killing", "judging"]
+
 ---
 
 > "Your mistletoe is no match for my TOW missile!"

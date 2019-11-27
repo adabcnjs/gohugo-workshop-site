@@ -13,3 +13,7 @@ theme = "ananke"
     identifier = "wiki"
     name = "Wiki"
     url = "https://futurama.fandom.com/wiki/MomCorp"
+
+[taxonomies]
+  hability = "habilities"
+  tag = "tags"
