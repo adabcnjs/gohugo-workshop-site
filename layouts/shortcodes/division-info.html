@@ -1,14 +1,14 @@
 <dl>
-  <dt>Official name:</dt>
+  <dt>{{ i18n "officialName" }}:</dt>
   <dd>{{.Inner }}</dd>
-  <dt>Creation date:</dt>
+  <dt>{{ i18n "creationDate" }}:</dt>
   <dd>{{ .Get "creation" }}</dd>
   <dt>CEO:</dt>
   <dd>
     {{ if .Get "ceo"}}
       {{.Get "ceo"}}
     {{ else }}
-      Mom
+      {{ i18n "mom" }}
     {{end}}
   </dd>
   <dt>COO:</dt>
