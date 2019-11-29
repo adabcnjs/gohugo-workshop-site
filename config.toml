@@ -1,5 +1,4 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "MomCorp"
 theme = "ananke"
 
@@ -17,3 +16,25 @@ theme = "ananke"
 [taxonomies]
   hability = "habilities"
   tag = "tags"
+
+[languages]
+  [languages.en]
+    weight = 1
+    contentDir = "content/en-EN"
+    baseURL = "http://example.com/"
+    languageCode = "en-EN"
+    languageName = "English"
+  [languages.es]
+    weight = 2
+    contentDir = "content/es-ES"
+    title = "Corporación Mamá"
+    baseURL = "http://example.es"
+    languageCode = "es-ES"
+    languageName = "Español"
+    [languages.es.taxonomies]
+      habilidad = "habilidades"
+      tag = "tags"
+    [[languages.es.menu.main]]
+      url = "https://futurama.fandom.com/es/wiki/Mam%C3%A1"
+      name = "Wiki"
+      identifier = "wiki"
