@@ -21,14 +21,14 @@ theme = "ananke"
   [languages.en]
     weight = 1
     contentDir = "content/en-EN"
-    baseURL = "https://momcorp.netlify.com/"
+    baseURL = "https://momcorp.netlify.com"
     languageCode = "en-EN"
     languageName = "English"
   [languages.es]
     weight = 2
     contentDir = "content/es-ES"
     title = "Corporación Mamá"
-    baseURL = "https://momcorp.netlify.com/"
+    baseURL = "https://momcorp.netlify.com/es"
     languageCode = "es-ES"
     languageName = "Español"
     [languages.es.taxonomies]
